@@ -1,0 +1,14 @@
+{
+  "amqp": {
+    "user": "guest",
+    "password": "guest",
+    "url": "localhost",
+    "port": "5672",
+    "queue": "sparkpost_webhook",
+    "exchange": "incoming_webhook",
+    "prefetchCount": 1
+  },
+  "logging": {
+    "level": "debug"
+  }
+}

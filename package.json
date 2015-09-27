@@ -1,0 +1,33 @@
+{
+  "name": "sparkpost-webhook-processor",
+  "version": "0.0.1",
+  "description": "A sample SparkPost webhook processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sparkpost",
+    "webhook"
+  ],
+  "author": "Cole Furfaro-Strode",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "config": "^1.16.0",
+    "lodash": "^3.10.1",
+    "on-exit": "^1.0.1",
+    "q": "^1.4.1",
+    "require-all": "^1.1.0",
+    "winston": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.0",
+    "gulp-jscs-stylish": "^1.2.1",
+    "gulp-jshint": "^1.11.2",
+    "jscs": "^2.1.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1"
+  }
+}
